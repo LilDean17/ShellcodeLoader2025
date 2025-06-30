@@ -301,11 +301,11 @@ dll 劫持未查杀 demon 的原因：
 
 - 构建并编译 loader。
 
-![image-20250630143410412](img/5.png)
+![image-20250630143410412](img/6.png)
 
 构建完成后，在 build 目录下会生成 loader。
 
-![image-20250630135153186](C:\Users\andy\AppData\Roaming\Typora\typora-user-images\image-20250630135153186.png)
+![image-20250630135153186](img/7.png)
 
 #### 八 、项目价值与边界
 
