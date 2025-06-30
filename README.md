@@ -123,11 +123,11 @@ havoc demon 测试结果
 - --export（仅在生成 dll 文件情况下生效）：
   - 文件路径：用于指定 dll 文件的导出函数。
 
-![image-20250630143220985](C:\Users\andy\AppData\Roaming\Typora\typora-user-images\image-20250630143220985.png)
+![image-20250630143220985](img\1.png)
 
 其中 --export 导出函数文件存储如下示例内容：
 
-![image-20250630143343116](C:\Users\andy\AppData\Roaming\Typora\typora-user-images\image-20250630143343116.png)
+![image-20250630143343116](img\2.png)
 
 ##### 构建过程
 
@@ -144,11 +144,11 @@ havoc demon 测试结果
 
 - 构建并编译 loader。
 
-![image-20250630143410412](C:\Users\andy\AppData\Roaming\Typora\typora-user-images\image-20250630143410412.png)
+![image-20250630143410412](img\3.png)
 
 构建完成后，在 build 目录下会生成 loader。
 
-![image-20250630135153186](C:\Users\andy\AppData\Roaming\Typora\typora-user-images\image-20250630135153186.png)
+![image-20250630143410412](img\4.png)
 
 #### 项目价值与边界
 
@@ -176,17 +176,3 @@ havoc demon 测试结果
 ##### 项目免责声明
 
 ​	本项目仅供安全研究、教育教学和防御评估。不得将其用于任何非法用途，包括但不仅限于未授权渗透、后门植入等。所有示例均在授权环境下进行测试。
-
-```
-2025最新开发的ShellcodeLoader框架，用于AV检测策略分析的模块化 Shellcode 加载器框架，具备非常强大的静态混淆功能。
-```
-
-```
-git init //把这个目录变成Git可以管理的仓库
-　　git add README.md //文件添加到仓库
-　　git add . //不但可以跟单一文件，还可以跟通配符，更可以跟目录。一个点就把当前目录下所有未追踪的文件全部add了 
-　　git commit -m "first commit" //把文件提交到仓库
-　　git remote add origin git@github.com:wangjiax9/practice.git //关联远程仓库
-　　git push -u origin master //把本地库的所有内容推送到远程库上
-```
-
