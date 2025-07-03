@@ -99,7 +99,7 @@ havoc demon 测试结果
 
 - Python：3.11.0
 - ninja：1.12.0.git
-- clang：20.1.5（ollvm：https://github.com/lux-QAQ/ollvm-clang21.0）
+- ollvm-clang：https://github.com/lux-QAQ/ollvm-clang21.0
 - vs 2022 C++ 桌面开发环境
 - python 库：pycryptodome=3.20.0
 - python 库：pyfiglet=1.0.2
